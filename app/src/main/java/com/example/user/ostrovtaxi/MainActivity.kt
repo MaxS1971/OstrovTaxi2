@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         inputMethodManager.hideSoftInputFromWindow(view.windowToken,0)
 
         if (editText.text.isEmpty()) {
-            var stringError = "Введите госномер такси"
+            val stringError = "Введите госномер такси"
             val toasMe = Toast.makeText(this, stringError, Toast.LENGTH_SHORT)
             toasMe.show()
         } else {
@@ -38,8 +38,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun requestDatabase() {
+        val text = editText.text.toString().toUpperCase()
         val referance = FirebaseDatabase.getInstance().reference
-        val myQuery = referance.orderByChild("VehicleNumber").equalTo("Р642НР197")
+        val myQuery = referance.orderByChild("VehicleNumber").equalTo(text)
 
         val postListener = object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot?) {
