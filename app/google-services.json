@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "413639859651",
+    "firebase_url": "https://ostrovtaxi-dabe0.firebaseio.com",
+    "project_id": "ostrovtaxi-dabe0",
+    "storage_bucket": "ostrovtaxi-dabe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413639859651:android:1d9b867f2a956e72",
+        "android_client_info": {
+          "package_name": "com.example.user.ostrovtaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413639859651-avvbgve7ar4rgbfv5mtnaopv4885s2d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.ostrovtaxi",
+            "certificate_hash": "69106318a2f822ed39de501ca4ebd9d9b5ce5420"
+          }
+        },
+        {
+          "client_id": "413639859651-ojcovauuol68q6f5ajl9j4thpj47da2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4t2qiRiUeKWWtkfA-W-yoxFoyv3tCjfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413639859651-ojcovauuol68q6f5ajl9j4thpj47da2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
